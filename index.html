@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>test web</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/DSCF6572.jpg" rel="icon">
+  <link href="style.css" rel="stylesheet">
+
+
+  <!-- Fonts -->
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<style>
+
+/* General body and background settings */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+h2, h3, h4 {
+  color: #333;
+}
+
+/* Header Styles */
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+#header nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+#header nav ul li a {
+  color: #333;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#about {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+#about .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#about .content {
+  padding: 20px;
+}
+
+#about img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#about .resume-item ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Stats Section */
+#stats {
+  background-color: #f0f0f0;
+  padding: 60px 0;
+}
+
+#stats .col-lg-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#stats i {
+  font-size: 40px;
+  color: #007BFF;
+  margin-bottom: 15px;
+}
+
+#stats .stats-item {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Skills Section */
+#skills {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+#skills .progress {
+  margin-bottom: 20px;
+}
+
+#skills .progress-bar {
+  height: 10px;
+  background-color: #007BFF;
+}
+
+#skills .progress-bar-wrap {
+  background-color: #f1f1f1;
+}
+
+/* Resume Section */
+#resume {
+  padding: 60px 0;
+}
+
+#resume .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#resume .resume-item {
+  margin-bottom: 30px;
+}
+
+#resume .resume-item h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#resume .resume-item p {
+  color: #777;
+}
+
+/* Contact Section */
+#contact {
+  padding: 60px 0;
+  background-color: #f0f0f0;
+}
+
+#contact .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#contact form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#contact button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer .social-links a {
+  margin: 0 15px;
+  color: #fff;
+  font-size: 20px;
+}
+
+footer .social-links a:hover {
+  color: #007BFF;
+}
+
+/* Scroll Top */
+#scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#scroll-top:hover {
+  background-color: #0056b3;
+}
+</style>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <img src="assets/img/Desain tanpa judul (17).png" alt="">
+
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2>Keysha Ariadi</h2>
+            <p>I'm <span class="typed" data-typed-items="UI/UX Designer,Front-end Developer, Freelancer, Content Creator, Media Sosial Manager">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <div class="social-links">
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/key_ariadi02?igsh=NXJmaWV0bzU0bHQz"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Saya adalah seorang pelajar yang 
+            haus akan ilmu dan pengalaman. 
+            Menjadi manusia yang bermanfaat
+            dan berdampak positif bagi banyak 
+            orang lain menjadi motto dalam hidup saya.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets\img\About.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Student &amp; Freelance</h2>
+            <p class="fst-italic py-3">
+              Hai perkenalkan, Saya Keysha Ariadi. Saya adalah seorang pelajar yang 
+              sedang duduk dibangku SMK kelas 11 dengan jurusan Rekayasa Perangkat Lunak.
+              Saat ini juga saya sedang menjalani masa PKL di startUp technology. 
+              Saya adalah seorang 
+              anak muda yang haus akan ilmu dan pengalaman, hal tersebut yang mendorong saya untuk terus belajar dan mengasah kemampuan
+              dengan memperbanyak pengalaman.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>2 Jan 2008</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62 878 8914 2944</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bekasi, Indonesia</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>17</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Profession:</strong> <span>Student &amp; Freelancer</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>ariadikeysha2@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              Dengan beberapa pengalaman yang saya miliki, 
+              saya dapat membantu anda dalam beberapa hal. 
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-emoji-smile"></i>
+            <div class="stats-item">
+              <p>UI/UX Design</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-journal-richtext"></i>
+            <div class="stats-item">
+              <p>Front-end Developed</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-headset"></i>
+            <div class="stats-item">
+              <p>Content Creator</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-people"></i>
+            <div class="stats-item">
+              <p>Sosial Media Manager</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>I understand and am an expert in several software that can help you</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Canva & Figma</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Capcut PC/MOBILE</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Python</span> <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Menjadi bermanfaat bagi banyak orang lain dan berdampak positif bagi lingkungan menjadi motto dala hidup saya.
+          karena sebaik - baiknya manusia adalah yang bermanfaat bagi orang lain.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Keysha Dwi Hajjar Putri Ariadi</h4>
+              <ul>
+                <li>Bekasi, Indonesia</li>
+                <li>+62 878 8914 2944</li>
+                <li>ariadikeysha2@gmail.com</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Junior High School Of Al Bahri</h4>
+              <h5>2020 - 2023</h5>
+              <p><em>Jl. Pangkalan II Depan Perum PU, RT.001/RW.005, Sumur Batu, Kec. Bantar Gebang, Kota Bks, Jawa Barat 17154</em></p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>vocational school Of Al Bahri</h4>
+              <h5>2023 - Now</h5>
+              <p><em>Jl. Yon Armed 7 No.143, RT.003/RW.006, Cikiwul, Kec. Bantar Gebang, Kota Bks, Jawa Barat 17152</em></p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Media Sosial Managament &amp; Content Creator</h4>
+              <h5>2023 - 2024</h5>
+              <p><em>Yayasan AL - Bahri Prima Nusantara</em></p>
+              <ul>
+                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                <li>Make daily and monthly content plans. </li>
+                <li>Create feed and reels content every day. </li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Front-end Developer</h4>
+              <h5>2024 - present</h5>
+              <p><em>CV. Agriva Teknologi Nusantara</em></p>
+              <ul>
+                <li>Developing various marketing program websites. </li>
+                <li>Create web designs based on UI/UX design. </li>
+                <li>Create a front - end design and develop a simple back - end. </li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Anda dapat menghubungi saya melalui</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>Perum. Senopati estate, Bekasi, Indonesia</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+62 878 8914 2944</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>ariadikeysha2@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+        
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Keysha Ariadi</h3>
+      <p>Being able to work with you is one of my stepping stones to continue to develop.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/key_ariadi02?igsh=NXJmaWV0bzU0bHQz"><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Keyariadi</strong> <span>All Rights Reserved</span>
+        </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
